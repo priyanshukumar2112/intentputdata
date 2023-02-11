@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:id="@+id/tvabout"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"
+        android:id="@+id/tvname"
+        android:textSize="25sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etname"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:id="@+id/tvclass"
+        android:textSize="25sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etclass"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About you"
+        android:id="@+id/tvaboutyou"
+        android:textSize="25sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:id="@+id/etaboutyou"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

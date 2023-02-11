@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showdetail"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/sdtvyourname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="your name is"
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/sdtvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/sdtvyourclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="your class"
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/sdtvclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/sdtvaboutyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About you"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        />
+    <TextView
+        android:id="@+id/sdtvabout"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginStart="15sp"
+
+        />
+</LinearLayout>
